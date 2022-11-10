@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">View_P2</string>
+    <string-array name="food_list">
+        <item>Lime juice</item>
+        <item>homemade syrup</item>
+        <item>Orange juice</item>
+        <item>Maraschino</item>
+        <item>MAMMOTH PASSION</item>
+        <item>TAO MEO TONIC</item>
+        <item>MAMMOTH PASSION</item>
+        <item>Rosemary syrup</item>
+        <item>Gin</item>
+        <item>Campari</item>
+        <item>Vodka</item>
+        <item> Cucumber</item>
+    </string-array>
+</resources>

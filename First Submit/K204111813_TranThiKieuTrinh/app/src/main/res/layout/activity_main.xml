@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:layout_width="350dp"
+       android:layout_height="400dp"
+       android:text = "TextView 1"
+       android:textStyle="italic"
+       android:textSize="24sp"
+       android:gravity="bottom|end"
+       android:background="#FF0000"
+       android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:background="#674747"
+        android:gravity="bottom|end"
+        android:text="TextView 1"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+</FrameLayout>
