@@ -31,7 +31,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
         String sql = "CREATE TABLE IF NOT EXISTS " + TBL_NAME + " ( "+COL_ID+" INTEGER PRIMARY KEY AUTOINCREMENT, "+
                                                                     COL_NAME + " VARCHAR(50), "+
-                                                                    COL_PRICE + "REAL)";
+                                                                    COL_PRICE + " REAL)";
         sqLiteDatabase.execSQL(sql);
     }
 
@@ -41,6 +41,8 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         onCreate(sqLiteDatabase);
 
     }
+
+    //SELECT
     public Cursor getData(String sql){
         SQLiteDatabase db = getReadableDatabase();
         return db.rawQuery(sql,null);
