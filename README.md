@@ -1,2 +1,2 @@
 # Android
-This repo is to store code from lessons and tests
+This repo is to store lessons and tests for Mobile Commerce course
